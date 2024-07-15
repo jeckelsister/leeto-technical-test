@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    p {
+        @apply font-inter font-normal text-slate-800;
+    }
+
+    h1 {
+        @apply font-inter text-xl font-semibold text-slate-900 sm:text-2xl;
+    }
+}
